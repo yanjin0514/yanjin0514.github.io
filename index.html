@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jin Yan - About Me</title>
+    <title>Yan Jin - 自我介绍</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -33,19 +33,16 @@
         }
         nav li {
             display: inline;
-            margin-left: 15px;
         }
         nav a {
             color: #666;
+            text-decoration: none;
         }
-        .profile-img {
-            max-width: 150px;
-            border-radius: 4px;
-            float: left;
-            margin-right: 20px;
-            margin-bottom: 10px;
+        nav a:hover {
+            color: #000;
         }
         
+        /* 核心修改：让图片独占一行并右对齐 */
         .profile-container {
             text-align: right;  /* 让容器内部的图片靠右对齐 */
             margin-bottom: 20px; /* 与下方文字拉开一点距离 */
@@ -54,7 +51,7 @@
             max-width: 150px;   /* 控制照片的最大宽度，你可以改成 120px 或 180px */
             border-radius: 4px; /* 可选：给照片加一点微弱的圆角，看起来更精致 */
         }
-        
+
         h2 {
             margin-top: 0;
         }
